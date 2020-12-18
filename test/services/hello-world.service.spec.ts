@@ -27,8 +27,8 @@ describe('Hello World service', () =>{
     });
 
     context('when no name provided', () => {
-      test('then return "Hi, World!"', async () => {
-        expect(await service.greeting()).toEqual('Hi, World!');
+      test('then return "Hello, there!"', async () => {
+        expect(await service.greeting()).toEqual('Hello, There!');
       });
     })
   });
